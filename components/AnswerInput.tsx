@@ -72,7 +72,7 @@ const AnswerInput = () => {
         setPreviousAnswer(validated.data);
         setShowResult(true);
       }
-    } catch (error) { }
+    } catch (error) {}
   };
 
   const handleNext = () => {
